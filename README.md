@@ -148,7 +148,7 @@ jupyter notebook notebooks/end_to_end_demo.ipynb
 
 ## Architecture
 
-![diagram](/academic-rag-system/assets/architecture_diagram.png)
+![diagram](/assets/architecture_diagram.png)
 
 
 
