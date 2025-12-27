@@ -58,8 +58,6 @@ The transparency of showing retrieved chunks alongside answers serves two purpos
 python apps/gradio_app.py
 ```
 
-![Demo Screenshot](assets/demo_screenshot.png)
-
 ### Example Interaction
 
 **Question:** *"What methods were used to collect data in this study?"*
