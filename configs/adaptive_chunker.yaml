@@ -1,0 +1,8 @@
+# Configuration for AcademicPaperChunker
+# Controls chunking of academic text
+
+target_chunk_size: 600
+min_chunk_size: 200
+max_chunk_size: 1000
+overlap_sentences: 1
+fallback_to_paragraphs: true

@@ -1,0 +1,8 @@
+# Configuration for RAGAnswerGenerator
+# Controls answer generation model and parameters
+
+model_name: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+device: -1
+max_new_tokens: 250
+do_sample: false
+ensure_complete: true

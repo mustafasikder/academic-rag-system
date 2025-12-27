@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+docs/
+note.txt
+
+notebooks/
+note.txt
+
+tests/
+test_chunker.py
+test_retriever.py
+test_generator.py
+
+requirements-dev.txt
+
+# Model cache
+models/
+*.bin
+*.pt
+*.safetensors
+
+# Data
+*.pdf
+data/
+*.csv
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local

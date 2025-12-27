@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "academic-rag-system"
+version = "0.1.0"
+description = "A modular RAG system for academic document processing."
+authors = [{ name = "Mustafa Sikder" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+# Optional but recommended once you're ready:
+# dependencies = [...]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["academic_rag_system*"]
